@@ -15,6 +15,7 @@
 <body>
 
   <div class="container">
+
     <div class="logo-container">
       <div class="logo">
         <img src="./images/logo.svg" alt="">
@@ -36,30 +37,22 @@
         Add your email below to stay up-to-date with announcements and our launch deals.
       </p>
       <div class="input-group">
-        <!-- <label for="email">Email Address</label> -->
-        <input type="email" name="email" id="email" placeholder="Email Address">
-        <button><img src="./images/icon-arrow.svg" alt="" class="arrow-btn"></button>
+        <input type="email" name="email" id="input-email" class="input-email" placeholder="Email Address">
+        <span id="error-msg" class="error-msg"> Please provide a valid email </span>
+        <img src="./images/icon-error.svg" alt="" id="error-icon" class="error-icon">
+        <button id="submit-btn"><img src="./images/icon-arrow.svg" alt="" id="arrow-btn" class="arrow-btn"></button>
       </div>
     </div>
+
   </div>
 
-<!-- 
-  Email Address
-   -->
+  
+  <div class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/einsatz3012">Einsatz</a>.
+  </div>
 
-
-
-
-
-
-
-
-
-  <!-- <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Einsatz</a>.
-    </p>
-  </footer> -->
+  <script src="./index.js"></script>
 </body>
 </html>
