@@ -24,7 +24,6 @@ body {
     background-image: url(./images/bg-pattern-desktop.svg), linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
     background-repeat: no-repeat;
     background-size: 90rem 100%;
-    /* overflow: hidden; */
 }
 
 .container {
@@ -32,7 +31,6 @@ body {
     height: 100%;
     display: grid;
     grid-template-columns: 58vw 42vw;
-    /* grid-template-rows: 14rem 61rem; */
     grid-template-rows: 20vh 79vh;
 }
 
@@ -55,8 +53,7 @@ body {
 .logo-container, 
 .content {
     width: 45rem;
-    /* margin-left: 10em; */
-    margin-left: 17%;
+    margin-left: 19%;
 }
 
 .logo-container {
@@ -78,8 +75,8 @@ body {
 
 .content h1 {
     color: var(--dark-grayish-red);
-    font-size: 4.6rem;
-    font-weight: 400;
+    font-size: 5.2rem;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: .3em;
 }
@@ -112,6 +109,7 @@ body {
     border-radius: 3em;
     padding-left: 2em;
     letter-spacing: .1em;
+    background: transparent;
     border: 1px solid hsla(0, 5.7%, 24.1%, 0.17);
 }
 
@@ -139,7 +137,6 @@ body {
 }
 
 .input-error-border {
-    /* display: none; */
     border: 2px solid var(--soft-red);
 }
 
